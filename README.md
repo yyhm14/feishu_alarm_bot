@@ -126,36 +126,16 @@
 
 ## 安装方法
 
-### 方法一：从 Marketplace 安装
 
-```bash
-# 添加 Marketplace（首次需要）
-claude plugin marketplace add weichao13-skills https://github.com/weichao13/claude-skills
-
-# 安装 Skill
-claude plugin install feishu-alarm-bot@weichao13-skills
-```
 
 ### 方法二：从 GitHub 直接安装
 
 ```bash
-claude plugin install https://github.com/weichao13/feishu-alarm-bot
+claude plugin install https://github.com/yyhm14/feishu-alarm-bot
 ```
 
-### 方法三：手动安装（本地开发）
 
-```bash
-# 克隆仓库
-git clone https://github.com/weichao13/feishu-alarm-bot.git
 
-# 复制到用户 Skill 目录（Windows）
-xcopy /E /I feishu-alarm-bot\skills\feishu-alarm-bot %USERPROFILE%\.claude\skills\feishu-alarm-bot
-
-# 复制到用户 Skill 目录（macOS/Linux）
-cp -r feishu-alarm-bot/skills/feishu-alarm-bot ~/.claude/skills/
-```
-
----
 
 ## 技术背景：关键 API 速查
 
