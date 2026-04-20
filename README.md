@@ -128,7 +128,7 @@
 
 
 
-### 方法二：从 GitHub 直接安装
+### 方法：从 GitHub 直接安装
 
 ```bash
 claude plugin install https://github.com/yyhm14/feishu-alarm-bot
